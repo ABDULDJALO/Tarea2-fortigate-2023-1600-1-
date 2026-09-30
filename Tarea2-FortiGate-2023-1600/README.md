@@ -19,7 +19,7 @@ Diseñar, configurar y demostrar infraestructuras de red protegidas con firewall
 | Infraestructura | Descripción | Carpeta |
 |---|---|---|
 | 1 | Usuario y servidor web comunicados únicamente a través de una VPN IPsec site-to-site entre dos FortiGate | [infraestructura-1](infraestructura-1/README.md) |
-| 2 | *Pendiente* | [infraestructura-2](infraestructura-2/README.md) |
+| 2 | Usuario detrás de un router Cisco y servidor detrás de un FortiGate, comunicados por VPN IPsec site-to-site entre fabricantes distintos | [infraestructura-2](infraestructura-2/README.md) |
 | 3 | *Pendiente* | [infraestructura-3](infraestructura-3/README.md) |
 
 ## Entorno utilizado
@@ -30,7 +30,7 @@ Diseñar, configurar y demostrar infraestructuras de red protegidas con firewall
 | Hipervisor | VMware Workstation (VM de PNetLab: 5 GB RAM, 4 vCPU, VT-x/EPT anidado) |
 | Emulador | PNetLab, red en modo Bridged hacia la red de casa (192.168.100.0/24) |
 | Firewalls | FortiGate-VM 7.0.9 (build 0444) |
-| Router ISP | Cisco C2691 (Dynamips, IOS 12.4(25d)) |
+| Routers Cisco | C2691 (IOS 12.4(25d)) como ISP · c7200 (IOS 15.2(4)S6) como equipo de red en la Infraestructura 2 |
 | Hosts | Alpine Linux 3.20 |
 | Herramientas | MobaXterm (SSH/SFTP), PuTTY (Telnet), navegador web |
 
