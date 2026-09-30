@@ -9,4 +9,3 @@
 | `WEB-SRV-interfaces` | Alpine WEB-SRV | `cat /etc/network/interfaces` |
 | `WEB-SRV-nginx-default.conf` | Alpine WEB-SRV | `cat /etc/nginx/http.d/default.conf` |
 
-Borra este archivo cuando hayas agregado los que faltan.
